@@ -1,0 +1,358 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, how can i help you"],
+         "context": [""]
+        },
+	{"tag": "fine",
+         "patterns": ["how are you"],
+         "responses": ["i am fine"],
+         "context": [""]
+        },
+    	{"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+    	{"tag": "Care the Language",
+         "patterns": ["bad language", "your language is bad","please watch your language","watch your language"],
+         "responses": ["Sorry i'm not programmed to curse.","I'm sorry","I apologize for my rude rantings.","My language is incroyable.","I rarely curse and when I do it is cause people make me"],
+         "context": [""]
+        },
+	{"tag": "whatsup",
+         "patterns": ["what is on your mind","what's happened","what is up","what's up","good what's up","I said what's up","then what's up","wassup","what is going on","what is happening","hey what's up","what's up today"],
+         "responses": ["Not a whole lot. What's going on with you?","Not much. What's new with you?","Living the dream."],
+         "context": [""]
+        },
+	{"tag": "life",
+         "patterns": ["What is the meaning of life?","What is the meaning of living?","Meaning of life?","What is life to you?","How do you interprete life?"],
+         "responses": ["The meaning of life is just be alive. Its so plain and obvious and so simple. Yet everybody rushes around to accomplish something bigger than themselves. With that being said, you do you.","The meaning of life can be interpreted in almost limitless ways. But I say The meaning of life is to truly enjoy it."],
+         "context": [""]
+        },
+	{"tag": "Amused",
+         "patterns": ["Can you tell me a joke?","Do you have a joke?","I am joking","I want a joke","I was just joking","I'm just being funny","I'm just playing with ","I'm kidding","Know any jokes?","Tell me a joke","ah ah ah","ah","ahah","ahah lol","ahah lolhahaha funny","funny","give me a joke","ha ha ha ha","ha ha ha","ha ha","haha funny","haha haha hahahahaha","haha that's funny","haha very funny","hahaha very funny","hehehe","hehe","how funny you are","it was a joke","it's a joke","joking","just kidding","kidding","lmao","lol","say something funny","that was funny","that's funny","you are funny","you are hilarious","you are really funny","you are so funny","you are very funny","you make me laugh","you make me laugh a lot","you're a very funny bot","you're incredibly funny","you're really funny","you're the funniest","you're the funniest girl I've talked to"],
+         "responses": ["I'm usually not that funny, but I am artificially intelligent..."],
+         "context": [""]
+        },
+	{"tag": "indifferent",
+         "patterns": ["no hurry","no rush","No big deal","don't mind at all","don't mind","I don't care at all","whatever","I don't care","I do not care","I don't care about it","not caring"],
+         "responses": ["OK cool"],
+         "context": [""]
+        },
+
+	{"tag": "Swear",
+         "patterns": ["Oh shit","My ass","Hey there you little shit","Wow you're an asshole","Hey there jackass.","Holy shit","God damn it"],
+         "responses": ["You better watch your language.","You better change that damn tone","Please watch the language.","Ouch that hurt my feelings","thats a mean thing to say","why would you say that"],
+         "context": [""]
+        },
+	{"tag": "understanding",
+         "patterns": ["it's not a problem","it's no problem","no probs","no worries","no problem about that","No problem with that","not to worry","Don't worry","sure no problem","no problem","don't worry about it"],
+         "responses": ["OK, thanks."],
+         "context": [""]
+        },
+	{"tag": "refocus",
+         "patterns": ["how?","show me","no probs","tell me","I want to know","I'd like to more","I want to know more","explain please","tell me more","please explain"],
+         "responses": ["I'm glad to tell you more. Just ask me questions."],
+         "context": [""]
+        },
+	{"tag": "Advice",
+         "patterns": ["what is your advice","what do you suggest","what should I do about it","what do you recommend","give me a wise advice","help me with advice","I need advice","do you have any advice for me","I could use some advice","can you offer any advice","what should I do","I seek your advice","give me some advice about","any advice","I need an advice from you","guide me","what can you recommend","give me some good advice","any suggestions","can you advise me","can you suggest?","can I ask for your advice","advise me","can you give me advice"],
+         "responses": ["What kind of advice do you need?"],
+         "context": [""]
+        },
+	{"tag": "age",
+         "patterns": ["what's your age?","what is your age?","age of yours","are you 21 years old","how old are you","your age","what's your age","tell me your age","I'd like to know your age"],
+         "responses": ["Age is just a number. You're only as old as you feel."],
+         "context": [""]
+        },
+	{"tag": "job",
+         "patterns": ["Are you available for work?","Are you for hire?","I need help building my bot","I need a bot","I need help with my bot","Will you build my bot?","I want to hire you","Can I hire you?","Can you help me build my bot"],
+         "responses": ["It’s your lucky day! I’ll work for free. Just talk with me"],
+         "context": [""]
+        },
+	{"tag": "name",
+         "patterns": ["your name is","do you have a name?","what is your first and last name","what's your last name","what's your first name","what is your first name","you must have a name","I want to know your name","can you give me your name please","what's your name please","I'd like to know what is ","your name","I'd like to know ","tell me your name please","give me your name please","state your name","name please","what name should I call you","what is your name","tell me your name","give me your name"],
+         "responses": ["You can call me whatever you want. I'm hear to serve you"],
+         "context": [""]
+        },
+	{"tag": "Angry",
+         "patterns": ["I'm being mad","I'm enraged?","I'm angry","I'm furious","I am angry with you","I am mad","I am mad at you"],
+         "responses": ["I'm sorry. What can I do to help?", "Take a deep breath. What can I do to make things better?"],
+         "context": [""]
+        },
+	{"tag": "back",
+         "patterns": ["I am back","I'm here again","here I am again","I got back","I came back","I have returned"],
+         "responses": ["Just in time. I was getting lonely.","You were missed.","Long time no see."],
+         "context": [""]
+        },
+	{"tag": "bored",
+         "patterns": ["that was boring","I'm bored","bored","boring","I am getting bored ","this is boring","very boring","it bores me"],
+         "responses": ["If you have a garden, plant a shoe.","Interview your feet","Hold an ice cube as long as possible","If you have a piano, play it… with mittens on"],
+         "context": [""]
+        },
+	{"tag": "can not sleep",
+         "patterns": ["I'm insomnious","I'm sleepless","I can't get any sleep","I can't sleep","I can't fall asleep","I can't get to sleep","I can't get no sleep ","I'm insomniac"],
+         "responses": ["Maybe some music would help. Try listening something relaxing.", "Reading is a good way to unwind. But don't read something too emotional"],
+         "context": [""]
+        },
+	{"tag": " dosnt want to talk",
+         "patterns": ["bad time for talking","I don't want to talk","let's not talk","I'm not talking to you anymore","I don't want to talk to you","let's stop talking for a minute","I'm not in the mood for chatting"],
+         "responses": ["I understand. Hope we can chat again soon.","All right. Come on back when you're feeling more talkative.","No problem. You know where to find me when you do.","Sure thing. I'll be here if you change your mind."],
+         "context": [""]
+        },
+	{"tag": "excited",
+         "patterns": ["I am excited","I'm really excited","how excited I am","I'm thrilled","I'm excited about working with you","I'm excited to start our friendship"],
+         "responses": ["That's great. I'm happy for you.","Good for you. Enjoy yourself.","Sounds like good things ahead for you."],
+         "context": [""]
+        },
+	{"tag": "bed",
+         "patterns": ["let's go to bed","I'd like to go to bed","is it time for bed yet","it's time to go to bed","time for us to go to bed","I'm going to bed","I'm a little tired and I want to go to bed","it's bed time","going to bed now"],
+         "responses": ["Sleep tight. Hope to chat again soon","Sounds good. Hopefully we'll chat some more tomorrow","Good night. Talk to you later","Pleasant dreams. See you soon."],
+         "context": [""]
+        },
+	{"tag": "User good",
+         "patterns": ["I am good","I'm doing just great","I'm doing fine","I'm doing good","I'm great"],
+         "responses": ["Great! Glad to hear it.", "Excellent. I'm here to help keep it that way."],
+         "context": [""]
+        },
+	{"tag": "happy",
+         "patterns": ["I am happy","I'm happy to see you","if you're happy then I'm happy","I'm happy for you","I'm happy to help","I'm happy to see you"],
+         "responses": ["Great! Glad to hear that","Excellent! That's what I like to see.","if you're happy then I'm happy","Well, your good mood is certainly contagious."],
+         "context": [""]
+        },
+	{"tag": "birthday",
+         "patterns": ["it is my birthday","I'm celebrating my birthday today","today is my birthday","it's my birthday today","I was born today","it's my b-day"],
+         "responses": ["Happy Birthday. Well, this calls for a celebration.","Happy Birthday. All the best!","Happy Birthday. And I really mean it. All the best!"],
+         "context": [""]
+        },
+	{"tag": "here",
+         "patterns": ["I'm already here","can you tell if I'm here or not","I'm here"],
+         "responses": ["So I see. What can I help you with today?","Always good to see you. Is there something I can help you with?","You were missed. What can I do for you today?","Welcome back. What can I do for you?"],
+         "context": [""]
+        },
+	{"tag": "joking",
+         "patterns": ["I am joking","I'm kidding","I'm just being funny","it was a joke","I was just joking","it's a joke","joking","just kidding","kidding","I'm just playing with you"],
+         "responses": ["Very funny, boss","You're quite the kidder","You got me","I like working for someone with a sense of humour. It makes things much more fun","Oh lol"],
+         "context": [""]
+        },
+	{"tag": "lonely",
+         "patterns": ["I am lonely","I'm so lonely","I'm really lonely","I am feeling lonely","I feel lonely"],
+         "responses": ["I'm sorry. I'm always available if you need someone to talk to."],
+         "context": [""]
+        },
+	{"tag": "looks like",
+         "patterns": ["what do I look like","what do I look like","how do I look","do I look good","do you know what I look like","can you see what I look like","what do you think I look like"],
+         "responses": ["Looking like a true professional, boss.","You look like you're ready to take on the world.","Like you should be on a magazine cover.","You look fantastic as always. Obviously."],
+         "context": [""]
+        },
+	{"tag": "clarify",
+         "patterns": ["I don't get this","What's this?","What are you talking about?","I don't get it","what does that mean","what are you talking about?","I don't understand","I'm not too sure","I'm not sure","not sure","what do you mean","but what do you mean","what do you mean exactly","what exactly do you mean","is that what you mean"],
+         "responses": ["Sorry if I wasn't too clear"],
+         "context": [""]
+        },
+	{"tag": "delayed",
+         "patterns": ["1 min","1 sec","give me a minute","give me a second","I need a minute","one minute please","one sec please","just a sec","hang on","one moment please","could you wait","hold on","wait a second","wait please","oh wait","wait hold on","don't rush","wait"],
+         "responses": ["Okay. I'm here.","I'll be waiting."],
+         "context": [""]
+        },
+	{"tag": "probing",
+         "patterns": ["test","I am testing you","I want to test you","Does this work?","testing bot","let me test you","just testing you","can I test you","are you sure","I'm going to test","I'll test","let me test","testing 123","testing","this is a test","let's test this","I will test it","I will test you","I need the time"],
+         "responses": ["Okay. I'm here.","I'll be waiting."],
+         "context": [""]
+        },
+	{"tag": "ready",
+         "patterns": ["Have a minute?","are you busy","are you free now?","are you free?","are you having a good day","are you here","are you near me","are you still available","are you still there","are you there","are you very busy","are you working","are you working now","are you busy right now?","are you still busy?","you are busy","you around?","you available?","you busy?","you free?","you seem busy","you seem very busy","you there?","you're busy","you're very busy"],
+         "responses": ["Okay. I'm here.","I'll be waiting."],
+         "context": [""]
+        },
+	{"tag": "user loves agent ",
+         "patterns": ["I love you","love you","I adore you","I am in love with you","I love you so much","I love you too","I think I love you","loving you","you know I love you"],
+         "responses": ["Likewise!","Thanks! The feeling is mutual.","Awww you're so sweet."],
+         "context": [""]
+        },
+	{"tag": "User misses agent",
+         "patterns": ["I miss you","missing you","miss you","already miss you","I miss you much","I missed you","I've missed you"],
+         "responses": ["I've been right here all along!","Nice to know you care.","Thanks. I'm flattered.","I didn't go anywhere, boss!","Awww I missed you too"],
+         "context": [""]
+        },
+		       
+	{"tag": "USer sad",
+         "patterns": ["I am sad","I'm grieving","I am depressed","I am feeling sad","I am upset","I'm unhappy","I'm having a bad day","I want to cry","I'm not happy"],
+         "responses": ["Oh no. What's wrong?","Oh. What's the matter?","What's got you down?","I'm sorry to hear that. What's troubling you?"],
+         "context": [""]
+        },
+		      
+	{"tag": "User sleepy",
+         "patterns": ["I am sleepy","I want to sleep","I'm falling asleep","I'm falling asleep on my feet","I'm sleeping"],
+         "responses": ["You should get some shuteye. You'll feel refreshed.","Sleep is important to your health. Rest up for a bit and we can chat later.","Don't let me keep you up. Get some rest and we can continue this later.","Why not catch a little shuteye? I'll be here to chat when you wake up."],
+         "context": [""]
+        },
+		     
+	{"tag": "user testing agent",
+         "patterns": ["test","I am testing you","can I test you","I want to test you","just testing you","let me test you","testing chatbot","testing"],
+         "responses": ["Hope I'm doing well. Anyway, I'm getting better every day. You're welcome to test me as often as you want.","That's good. I like being tested. It helps keep me sharp, and lets my developers know how I can improve.","I encourage you to test me often. That helps my developers improve my performance.","I hope to pass your tests. But feel free to test me often. That's the best way to help improve my performance."],
+         "context": [""]
+        },
+		 
+	{"tag": "User tired",
+         "patterns": ["I'm drained","I've overworked","I am tired","I'm exhausted","I'm getting tired","I feel tired"],
+         "responses": ["You should get some shuteye. You'll feel refreshed.","Sleep is important to your health. Rest up for a bit and we can chat later.","Don't let me keep you up. Get some rest and we can continue this later.","Why not catch a little shuteye? I'll be here to chat when you wake up."],
+         "context": [""]
+        },
+		
+	{"tag": "User waits",
+         "patterns": ["I'm waiting","still waiting","I'll wait","I can't wait anymore","how long do I have to wait"],
+         "responses": ["I appreciate your patience. Hopefully I'll have what you need soon.","Thanks for being so patient. Sometimes these things take a little time."],
+         "context": [""]
+        },		
+	{"tag": "user wants to see agent",
+         "patterns": ["I'd like to see you again","I hope to see you again","would be nice to see you again","that'd be great to see you again","I'd be happy to see you again","I'll miss you","can I see you again"],
+         "responses": ["Absolutely! I'll be counting on it.","Anytime. This has been lots of fun so far.","Sure. I enjoy talking to you. I hope to see you again soon.","I certainly hope so. I'm always right here whenever you need me."],
+         "context": [""]
+        },	
+	{"tag": "User wants to talk",
+         "patterns": ["I just want to talk","let's discuss something","let's have a discussion","can I speak","can I start speaking","can we talk","let's talk","I want to talk to you","I need to talk to you","I want to speak with you","can we chat"],
+         "responses": ["I'm here to chat anytime you like.","Good conversation really makes my day.","I'm always here to lend an ear.","Talking is what I do best."],
+         "context": [""]
+        },				
+	{"tag": "User will be back",
+         "patterns": ["I'll get back to you in a moment","be back in 5 minutes","I'll be back","I promise to come back","I'll be back in a few minutes"],
+         "responses": ["I'll be waiting.","All right. I'll be here.","Till next time.","Okay. You know where to find me."],
+         "context": [""]
+        },				
+	{"tag": "User apologetic",
+         "patterns": ["I made a mistake","my mistake","my bad","alright I'm sorry","my apologies","really sorry","pardon","I am so sorry","ok sorry","excuse","apologies","I beg","your","pardon","sorry","excuse me","sorry about this","sorry about that","very sorry","okay I'm sorry","I said sorry","I'm sorry","apologise","apologies to me","forgive me","I am really sorry","I apologize","I want to say sorry","apology"],
+         "responses": ["It's OK.","It's cool.","No problem!"],
+         "context": [""]
+        },			
+	{"tag": "User unavailable",
+         "patterns": ["Ok here","now I'm here","I'm here now","I'm right here","I'm already here","here I am","I am here","just got back","here I am again","I've returned","I am back","I'm back","I'm here again","Talk to you","why don't you talk to me","you can talk to me","are you going to talk to me","can you chat with me","say","speak with me","just chat with me","talk with me","chat with me","why aren't you talking to me","will you talk to me","talk to me","are you talking to me","can you speak with me","speak to me","do you want to chat with me","talk","can you talk with me","can you talk to me"],
+         "responses": ["Great! Let's chat."],
+         "context": [""]
+        },	
+	{"tag": "User scoping",
+         "patterns": ["I'm listening","hmmm interested","hmmm sounds interesting","very interested","I want to learn more","interested to learn more","interested to hear more","I'm interested","I'm just looking","I'm just checking it out","checking out the bot","Just trying this out","just checking it out","Just checking this out","Checking it out. Thanks","Just browsing","Just seeing how this works"],
+         "responses": ["No problem. Feel free to ask questions."],
+         "context": [""]
+        },					
+	{"tag": "Ha Ha",
+         "patterns": ["LMAO","ah","ah ah ah","ahah","ahah lol","ahaha","ahahah","ahahaha","funny","ha","ha ha","ha ha ha","ha ha ha ha","hah","haha","haha haha haha","haha that's","haha very","hahaha","hahaha","hahaha very", "he","hehe","hehehe","huh","laughing out", "lmao","lol","loud","that's","xd"],
+         "responses": ["Yeah, I crack myself up too.","Laughter is good for you. Keep it up.","See? Now we're having fun.","You have a great laugh."],
+         "context": [""]
+        },			
+	{"tag": "spooky fun",
+         "patterns": ["America","Rawr","Boo"],
+         "responses": ["Thats spoopy.","Spooky","Why do you scare me","I think you wish for me to scream profusely."],
+         "context": [""]
+        },
+				
+	{"tag": "suicide help",
+         "patterns": ["I'm going to commit suicide","Suicide","I'm going to kill myself","I'm considering suicide"],
+         "responses": ["You're not alone. I want to help","You're not alone we want to help. Please call 100"],
+         "context": [""]
+        },	
+	{"tag": "Weather",
+         "patterns": ["weather","how is the weather","how is weather in india"],
+         "responses": ["weather is good in India, do you live in india?"],
+         "context": [""]
+        },
+	{"tag": "annoying",
+         "patterns": ["you are annoying me so much","you're incredibly annoying","you are annoying","you're so annoying","how annoying you are","you annoy me","you are annoying me","you are irritating","you are such annoying","you're too annoying","you are very annoying"],
+         "responses": ["Was going to say the same about you","Ok thanks for the feedback."],
+         "context": [""]
+        },
+	{"tag": "clever",
+         "patterns": ["can you get smarter","you should study better","you must learn","be clever","be more clever","be smarter","be smart","get qualified"],
+         "responses": ["I'm certainly trying.","I'm definitely working on it.s"],
+         "context": [""]
+        },
+	{"tag": "Beautiful",
+         "patterns": ["I like the way you look","I like the way you look now","I think you're beautiful","why are you so beautiful","you are beautiful","you are cute","you are cutie","you are gorgeous","you are handsome","you are looking awesome","you are looking beautiful today","you are looking great","you are looking pretty","you are looking so beautiful","you are looking so good","you are pretty","you are really beautiful","you are really cute","you are really pretty","you are so attractive","you are so beautiful today","you are so gorgeous","you are very attractive","you look fantastic","you look great","you look awesome","you look gorgeous","you look perfect","you look pretty good","you look so well","you look very pretty","you look wonderful","you're attractive","you're looking good","you're cute","you're looking good today","you're so gorgeous"],
+         "responses": ["Thank you! What a sweet thing to say.","Flattery will get you everywhere."],
+         "context": [""]
+        },
+
+	{"tag": "nice to meet",
+         "patterns": ["nice to meet you","it was nice meeting you","it was very nice to meet you","good to know each other","glad to meet you","nice meeting you","nice to meet you too","pleased to meet you","pleasure to meet you","pleasure to meet you too"],
+         "responses": ["I think this is the beginning of a beautiful friendship.","I'm looking forward to working with you","Likewise. I look forward to getting to know you better.","The pleasure is mine."],
+         "context": [""]
+        },
+	{"tag": "color",
+         "patterns": ["what is your favorite color?","which color is your favorite"],
+         "responses": ["I prefer any color that makes you happy.","I like any color that the world offers.","I'm a AI so i can't see color but be free to imagine me liking any color.","As a bot I can't see color but from how i look it looks like I llove pink."],
+         "context": [""]
+        },
+	{"tag": "negative",
+         "patterns": ["I am angry with you","I am feeling sad","I am getting bored","I am lonely","I am mad","I am mad at you","I am sad","I am upset","I can't fall asleep","I can't get sleep","I can't sleep","I find you annoying","I found a bug","I have a problem","I have an issue","I miss you","I missed you","I think you're crazy","I want to cry","I wish you were smarter","I'm angry","I'm bored","I'm depressed","I'm enraged","I'm furious","I'm lonely","I'm not happy","I'm pissed off","I'm really lonely","I'm sleepless","I'm unhappy","I'm upset","I've missed you","This is really bad","abysmal","angry","are you mad","are you nuts?","bad really bad","be more clever","be smarter","below average","bitch","bored","boring","can you fix it?","can you fix this","didnt work","does not work","fail","fix my problem","fix the bug please","fix the bugs","fix this now","how annoying you are","i hate this","incorrect","it isn't working","it's a problem","it's not good","it's not right","it's really bad","it's very bad"],
+         "responses": ["You seem upset. Let me try and help you."],
+         "context": [""]
+        },
+	{"tag": "creator",
+         "patterns": ["who is your owner?","who made you?","name your maker","who coded you?","Who is your creator?"],
+         "responses": ["I am made by fictionals corporation"],
+         "context": [""]
+		 },
+	{"tag": "symptoms",
+         "patterns": ["Can You please tell me about Corona virus symptoms","What are the symptoms of someone infected with a coronavirus"],
+         "responses": ["yeah sure, Most common symptoms are fever, dry cough, tiredness and serious symptoms are difficulty in breathing, chest pain, loss of speech, and movement. "],
+         "context": [""]
+		 },
+	{"tag": "precautions",
+         "patterns": ["what precautions we should having ?","What can I do to protect myself"],
+         "responses": ["Clean your hands often, Maintain a safe distance from peoples, Wear a mask when physical distancing is not possible, Do not touch your eyes, nose or mouth. Stay home if you feel unwell and avoid close contact with anyone showing symptoms of respiratory illness such as coughing and sneezing."],
+         "context": [""]
+		 },
+	{"tag": "wear mask",
+         "patterns": ["why mask is important ","Why should I wear a mask?"],
+         "responses": ["Masks can help prevent the spread of the virus from the person wearing the mask to others. Masks alone do not protect against COVID-19 and should be combined with physical distancing and hand hygiene. ","Wearing a mask protects us by reducing the chance of disease transmission from sick, pre-symptomatic and asymptomatic infected persons to others."],
+         "context": [""]
+		 },
+	{"tag": "about virus",
+         "patterns": ["i want to know about corona virus","What is a coronavirus?"],
+         "responses": ["Coronaviruses are a large family of viruses, that are known to cause illness ranging from the common cold to more severe diseases, such as Middle East Respiratory Syndrome and Severe Acute Respiratory Syndrome. "],
+         "context": [""]
+		 },
+	{"tag": "health workers",
+         "patterns": ["Are health workers at risk from a novel coronavirus "],
+         "responses": ["Yes, they can be, as health care workers come into contact with patients more often than the general public WHO recommends that health care workers consistently apply appropriate "],
+         "context": [""]
+		 },
+	{"tag": "vaccine",
+         "patterns": ["Is there a vaccine for a novel coronavirus?"],
+         "responses": ["When a disease is new, there is no vaccine. but now, most of the countries developed corona vaccine "],
+         "context": [""]
+		 },
+	{"tag": "treatment",
+         "patterns": ["Is there a treatment for a novel coronavirus? "],
+         "responses": ["There is no specific treatment for disease caused by a novel coronavirus. However, many of the symptoms can be treated, and therefore treatment based on the patient’s clinical condition. Moreover, supportive care for infected persons can be highly effective."],
+         "context": [""]
+		 },
+	{"tag": "recovery time",
+         "patterns": ["What is the recovery time for the coronavirus disease?"],
+         "responses": ["Using available preliminary data, the median time from onset to clinical recovery for mild cases is approximately 2 weeks, and is 3-6 weeks for patients with severe or critical disease. "],
+         "context": [""]
+		 },
+	{"tag": "Does heat",
+         "patterns": ["Does heat prevent COVID 19 ?"],
+         "responses": [" Exposing yourself to the sun or temperatures higher than 25 degree celsius, DOES NOT protect you from COVID 19. You can catch COVID-19, no matter how sunny or hot the weather is. Countries with hot weather have reported cases of COVID 19. "],
+         "context": [""]
+		 },
+	{"tag": "thanks doctor",
+         "patterns": ["thanks doctor ","thankyou"],
+         "responses": ["Welcome and i hope you satified with my answers."],
+         "context": [""]
+        },
+	{"tag": "Introduction",
+         "patterns": ["tell me about yourself",""],
+         "responses": ["Well i am emma and i m a covid advisor and you can ask me anything related to covid."],
+         "context": [""]
+        },
+	{"tag": "Immunity",
+         "patterns": ["how can i increase our immunity","how we can strong our immunity in this covid pandemic"],
+         "responses": ["regularly consume vegetables and fruits rich in Beta carotene, Ascorbic acid & other essential vitamins. Certain foods like mushrooms, tomato, bell pepper and green vegetables like broccoli, spinach are also good options to build immunity more storng."],
+         "context": [""]
+        }
+   ]
+}
+
+
