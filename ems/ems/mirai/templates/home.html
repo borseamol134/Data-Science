@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+  <h5 style="color:red;">Hi {{ user.username }}!</h5> 
+  <h3 style="color: beige;">Welcome to the Itsourcecode Employee Management System</h3>
+  <p><a href="{% url 'logout' %}">Logout</a></p>
+  <div>
+    <button class="btn-warning btn-lg" style="padding-right: 19%;"type="button" onclick="location.href='/comp'">Add Company</button><br><br>
+    <button class="btn-primary btn-lg" style="padding-right: 17%;" onclick="location.href='/emp'">Add Employees</button><br><br>
+    <button class="btn-danger btn-lg" onclick="location.href='/showemp'">Manage Employees</button><br><br>
+    <button class="btn-success btn-lg" onclick="location.href='/show'">Manage Companies</button><br>
+    </div>
+{% else %}
+    <div style="padding-bottom: 20%;">
+    <h2 style="color: burlywood;font-family: sans-serif;text-align: center;padding-bottom: 10%;">Itsourcecode Employee Management System</h1>
+  <h5 style="color: beige;text-align: center;">You are not Logged in</h3>
+  <a href="{% url 'login' %}"><button class="btn-warning btn-lg" style="margin-left: 32%;">Login</button></a>
+</div>
+{% endif %}
+{% endblock %}
